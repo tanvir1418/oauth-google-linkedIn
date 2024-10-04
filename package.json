@@ -1,0 +1,24 @@
+{
+  "name": "oauth_trials",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@qsxlpublic/passport-linkedin-oauth2": "^3.0.0-qsxl.1.0.2",
+    "cookie-session": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth2": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
